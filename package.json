@@ -20,16 +20,10 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/giovanesantossilva/react-leaflet-draft.git"
-    },
-    "bugs": {
-        "url": "https://github.com/giovanesantossilva/react-leaflet-draft/issues"
+        "url": "https://github.com/CSNW/react-leaflet-draft.git"
     },
     "files": [
-        "dist",
-        "LICENSE",
-        "README.md",
-        "src/Draft/index.d.ts"
+        "src/Draft"
     ],
     "keywords": [
         "react",
