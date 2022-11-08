@@ -1,4 +1,5 @@
-import * as React from "react";
+import L from "leaflet";
+import React from "react";
 import { useLeafletContext, createControlComponent } from '@react-leaflet/core';
 import "leaflet-draw";
 
@@ -32,7 +33,7 @@ export const DraftControl = React.memo(createControlComponent(function(props) {
     }, []);
 
     React.useEffect(function() {
-        context.map.on(window.L.Draw.Event.CREATED, onDrawCreated);
+        context.map.on(L.Draw.Event.CREATED, onDrawCreated);
     }, []);
 
     return createControlDraw(props, context);
