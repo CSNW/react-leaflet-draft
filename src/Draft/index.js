@@ -24,7 +24,7 @@ export const DraftControl = React.memo(createControlComponent(function(props) {
     }, []);
 
     React.useEffect(function() {
-        __dirname.mapObject(props, (propValue, propName) => {
+        _.mapObject(props, (propValue, propName) => {
             if(propName.startsWith('on') && propName !== "onCreated") {
                 const event = `draw:${propName.substring(2).toLowerCase()}`;
                 context.map.on(event, propValue);

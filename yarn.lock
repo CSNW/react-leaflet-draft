@@ -6851,6 +6851,7 @@ __metadata:
     leaflet: ^1.6.0
     leaflet-draw: ^1.0.0
     react-leaflet: ^3.0.0
+    underscore: 1.12.1
   languageName: unknown
   linkType: soft
 
