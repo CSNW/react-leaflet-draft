@@ -23,7 +23,10 @@
         "url": "https://github.com/CSNW/react-leaflet-draft.git"
     },
     "files": [
-        "src/Draft"
+        "dist",
+        "LICENSE",
+        "README.md",
+        "src/Draft/index.d.ts"
     ],
     "keywords": [
         "react",
