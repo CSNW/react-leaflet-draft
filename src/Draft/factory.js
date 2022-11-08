@@ -1,3 +1,5 @@
+import L from "leaflet";
+
 function createEditDefault() {
     return {
         edit: true,
@@ -35,5 +37,5 @@ export function createControlDraw({ draw, edit, position }, context) {
     if(edit) {
         options.edit = { ...options.edit, ...edit };
     }
-    return new window.L.Control.Draw(options);
+    return new L.Control.Draw(options);
 }

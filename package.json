@@ -1,12 +1,10 @@
 {
     "name": "react-leaflet-draft",
     "version": "1.2.1",
-    "private": false,
     "description": "A modern study React component of leaflet draw for react-leaflet",
     "author": "Giovane Santos <giovanesantos1999@gmail.com>",
     "license": "ISC",
-    "main": "src/Draft/index.js",
-    "types": "src/Draft/index.d.ts",
+    "main": "dist/index.min.js",
     "scripts": {
         "test": "jest",
         "size": "du -hs dist/",
@@ -20,10 +18,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/giovanesantossilva/react-leaflet-draft.git"
-    },
-    "bugs": {
-        "url": "https://github.com/giovanesantossilva/react-leaflet-draft/issues"
+        "url": "https://github.com/CSNW/react-leaflet-draft.git"
     },
     "files": [
         "dist",
@@ -42,7 +37,8 @@
     "peerDependencies": {
         "leaflet": "^1.9.0",
         "leaflet-draw": "^1.0.0",
-        "react-leaflet": "^3.0.0"
+        "react-leaflet": "^3.0.0",
+        "underscore": "1.12.1"
     },
     "dependencies": {
         "@react-leaflet/core": "^1.1.1",
