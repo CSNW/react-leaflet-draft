@@ -37,16 +37,15 @@
     "peerDependencies": {
         "leaflet": "^1.9.0",
         "leaflet-draw": "^1.0.0",
-        "react-leaflet": "^3.0.0",
-        "underscore": "1.12.1"
+        "react-leaflet": "5.0.0"
     },
     "dependencies": {
-        "@react-leaflet/core": "^1.1.1",
+        "@react-leaflet/core": "2.0.0",
         "leaflet": "^1.9.2",
         "leaflet-draw": "^1.0.4",
-        "react": "^18.2.0",
-        "react-dom": "^18.2.0",
-        "react-leaflet": "^3.2.5"
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "react-leaflet": "4.0.0"
     },
     "devDependencies": {
         "@babel/cli": "^7.17.0",
@@ -54,7 +53,7 @@
         "@babel/preset-env": "^7.16.11",
         "@babel/preset-react": "^7.16.7",
         "@testing-library/jest-dom": "^5.16.2",
-        "@testing-library/react": "^12.1.2",
+        "@testing-library/react": "^16.3.0",
         "babel-jest": "^27.5.1",
         "babel-loader": "^8.2.3",
         "css-loader": "^6.6.0",
